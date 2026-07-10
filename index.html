@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pondok Pesantren Salafiyah Al-Falah Putak</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
+  </head>
+  <body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.png" class="logo-img" alt="Logo Pondok">
+          <span class="title">Pondok Pesantren Al-Falah</span>
+        </a>
+
+        <!-- Hamburger Button -->
+        <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Beranda</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
+                 href="#" id="tentangDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Tentang Kami
+                <i class="bi bi-chevron-down dropdown-icon"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="tentangDropdown">
+                <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+                <li><a class="dropdown-item" href="visi.html">Visi &amp; Misi</a></li>
+                <li><a class="dropdown-item" href="pendiri.html">Pendiri</a></li>
+                <li><a class="dropdown-item" href="keunggulan.html">Keunggulan</a></li>
+                <li><a class="dropdown-item" href="fasilitas.html">Fasilitas</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
+                 href="#" id="pembinaanDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Pembinaan Santri
+                <i class="bi bi-chevron-down dropdown-icon"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="pembinaanDropdown">
+                <li><a class="dropdown-item" href="kegiatan.html">Kegiatan Harian</a></li>
+                <li><a class="dropdown-item" href="kegiatan_tahunan.html">Kegiatan Tahunan</a></li>
+                <li><a class="dropdown-item" href="extra.html">Ekstrakurikuler</a></li>
+                <li><a class="dropdown-item" href="pembelajaran.html">Program Pembelajaran</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
+                 href="#" id="pendidikanDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Pendidikan
+                <i class="bi bi-chevron-down dropdown-icon"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="pendidikanDropdown">
+                <li><a class="dropdown-item" href="tahfidz.html">Pondok Tahfidzul Qur'an</a></li>
+                <li><a class="dropdown-item" href="putra.html">Pondok Putra</a></li>
+                <li><a class="dropdown-item" href="putri.html">Pondok Putri</a></li>
+                <li><a class="dropdown-item" href="diniyah.html">Madrasah Diniyyah</a></li>
+                <li><a class="dropdown-item" href="qiroati.html">Madrasah Qiro'ati</a></li>
+                <li><a class="dropdown-item" href="mi.html">Madrasah Ibtidaiyyah</a></li>
+                <li><a class="dropdown-item" href="mts.html">Madrasah Tsanawiyyah</a></li>
+                <li><a class="dropdown-item" href="ma.html">Madrasah Aliyah</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
+                 href="#" id="publikasiDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">
+                Publikasi
+                <i class="bi bi-chevron-down dropdown-icon"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="publikasiDropdown">
+                <li><a class="dropdown-item" href="berita.html">Berita Pesantren</a></li>
+                <li><a class="dropdown-item" href="galeri.html">Galeri Pesantren</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="section-container">
+        <div class="social-icons mb-3">
+          <a href="https://www.facebook.com/ponpesalfalahputak/" aria-label="Facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/alfalah_putak" aria-label="Instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.tiktok.com/@alfalahputak" target="_blank" rel="noopener" aria-label="Tiktok"><i class="bi bi-tiktok"></i></a>
+        </div>
+        <h1>Pondok Pesantren Salafiyah<br class="d-none d-md-block"> Al-Falah Putak</h1>
+        <p class="text-hero mt-3 mb-4" style="max-width:680px">
+          Pondok Pesantren Al-Falah Putak menerapkan sistem pendidikan terpadu dengan mengombinasikan kurikulum salafiyah, kurikulum Kementerian Agama, dan kurikulum Dinas Pendidikan. Integrasi ini bertujuan untuk menciptakan pembelajaran yang seimbang antara pendalaman ilmu agama dan penguasaan ilmu pengetahuan umum, sehingga menghasilkan santri yang unggul dalam intelektual, spiritual, dan karakter.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a class="btn btn-primary" href="https://pendaftaransantribaru.netlify.app/" target="_blank" rel="noopener">Daftar Sekarang</a>
+          <a class="btn btn-secondary" href="#tentang">Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FLOATING STATS ========== -->
+    <div class="floating-stats-wrapper">
+      <div class="floating-stats-container">
+        <div class="row g-3">
+          <div class="col-12 col-sm-4">
+            <div class="stat-card">
+              <img src="icon-hero.png" class="stat-icon" alt="">
+              <div>
+                <h3 class="stat-number">1000+</h3>
+                <p class="stat-label">Santri</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="stat-card">
+              <img src="icon-hero.png" class="stat-icon" alt="">
+              <div>
+                <h3 class="stat-number">8+</h3>
+                <p class="stat-label">Pendidikan</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="stat-card">
+              <img src="icon-hero.png" class="stat-icon" alt="">
+              <div>
+                <h3 class="stat-number">12+</h3>
+                <p class="stat-label">Ustadz/Ustadzah</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== TENTANG ========== -->
+    <section id="tentang">
+      <div class="section-container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <p class="accent-badge mb-3">About Us</p>
+            <h2 class="section-title mb-3">Sekilas Tentang Pesantren</h2>
+            <p class="mb-4">
+              Pondok Pesantren Al-Falah Putak merupakan lembaga pendidikan Islam yang menerapkan sistem pendidikan terpadu dengan mengintegrasikan kurikulum salafiyah, kurikulum Kementerian Agama, dan kurikulum Dinas Pendidikan. Integrasi ketiga kurikulum tersebut dirancang untuk menciptakan keseimbangan antara pendalaman ilmu agama dan penguasaan ilmu pengetahuan umum. Melalui pendekatan ini, Pondok Pesantren Al-Falah Putak berkomitmen mencetak generasi santri yang unggul dalam aspek intelektual, spiritual, dan karakter, serta mampu menghadapi tantangan perkembangan zaman dengan berlandaskan nilai-nilai keislaman.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="content-card">
+              <div class="video-wrapper rounded-4">
+                <iframe
+                  src="https://www.youtube.com/embed/2i9aufgz98Q?si=VlY8VPnq4wUT-5SW"
+                  title="YouTube video"
+                  allowfullscreen
+                  loading="lazy">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PENDAFTARAN ========== -->
+    <section id="pendaftaran" class="color-section">
+      <div class="section-container">
+        <div class="row g-4 g-lg-5 align-items-center">
+          <div class="col-lg-6">
+            <p class="accent-badge mb-3">REGISTRATION</p>
+            <h2 class="section-title mb-3">Pendaftaran Santri Baru Telah Dibuka, Ayo Bergabung!</h2>
+            <p class="mb-4 text-muted">
+              Mari bergabung bersama Pondok Pesantren Al-Falah Putak untuk memperoleh pendidikan terpadu yang menggabungkan ilmu agama dan ilmu umum. Dukung masa depan putra-putri Anda dalam lingkungan yang islami, disiplin, dan penuh pembinaan karakter menuju generasi yang cerdas, mandiri, dan berakhlak mulia.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-primary" href="https://pendaftaransantribaru.netlify.app/" target="_blank" rel="noopener noreferrer">Daftar Sekarang</a>
+              <a class="btn btn-poster" href="poster-pendaftaran.jpeg" download>Brosur Pendaftaran</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="accordion" id="registrationAccordion">
+              <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#collapse1">
+                    <i class="bi bi-file-earmark-check me-2"></i>
+                    Alur dan Syarat Pendaftaran
+                  </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#registrationAccordion">
+                  <div class="accordion-body">
+                    <ul class="mb-0">
+                      <li>Mengisi formulir pendaftaran online secara lengkap</li>
+                      <li>Melengkapi dokumen yang diperlukan</li>
+                      <li>Verifikasi dokumen secara offline/online</li>
+                      <li>Menunggu pengumuman hasil seleksi</li>
+                      <li>Daftar ulang &amp; pembayaran</li>
+                      <li>Membawa dokumen asli saat verifikasi</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#collapse2">
+                    <i class="bi bi-calendar3 me-2"></i>
+                    Jadwal Pendaftaran dan Seleksi
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#registrationAccordion">
+                  <div class="accordion-body">
+                    <ul class="mb-0">
+                      <li>Gelombang 1: 10 - 17 Mei 2026</li>
+                      <li>Gelombang 2: 14 - 20 Juni 2026</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item shadow-sm">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#collapse3">
+                    <i class="bi bi-credit-card me-2"></i>
+                    Biaya Pendidikan
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#registrationAccordion">
+                  <div class="accordion-body">
+                    <ul class="mb-0">
+                      <li><strong>Biaya Pendaftaran:</strong> Rp 50.000</li>
+                      <li><strong>Biaya Pembangunan:</strong> Rp 800.000</li>
+                      <li><strong>SPP Bulanan:</strong> Rp 500.000</li>
+                      <li>Biaya lainnya dapat dilihat di brosur</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== KEUNGGULAN ========== -->
+    <section>
+      <div class="section-container">
+        <div class="mb-4">
+          <p class="accent-badge mb-3">WHY CHOOSE US</p>
+          <h2 class="section-title mb-3">Mengapa Kami Pilihan Terbaik?</h2>
+          <p class="lead text-muted">
+            Pondok Pesantren Al-Falah Putak menghadirkan lingkungan pendidikan yang mendukung perkembangan spiritual, intelektual, dan karakter santri melalui sistem pembelajaran terpadu, tenaga pendidik berpengalaman, serta pembinaan yang berorientasi pada pembentukan generasi islami dan berprestasi.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md-6 col-lg-4">
+            <div class="card keunggulan-card h-100 text-center p-3">
+              <img src="C1.png" class="keunggulan-icon mt-4" alt="">
+              <h4 class="text-keunggulan">Pendidikan Religius</h4>
+              <p class="small mb-4">Memberikan pendidikan agama yang mendalam melalui pembelajaran berbasis nilai-nilai Islam untuk membentuk santri yang beriman, bertakwa, dan berakhlakul karimah.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <div class="card keunggulan-card h-100 text-center p-3">
+              <img src="C2.png" class="keunggulan-icon mt-4" alt="">
+              <h4 class="text-keunggulan">Lingkungan Disiplin</h4>
+              <p class="small mb-4">Menerapkan budaya disiplin dalam kehidupan sehari-hari guna membentuk karakter santri yang tangguh, bertanggung jawab, dan taat terhadap aturan.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <div class="card keunggulan-card h-100 text-center p-3">
+              <img src="C3.png" class="keunggulan-icon mt-4" alt="">
+              <h4 class="text-keunggulan">Fasilitas Optimal</h4>
+              <p class="small mb-4">Menyediakan sarana pembelajaran, fasilitas ibadah, dan lingkungan yang nyaman guna menunjang aktivitas akademik maupun keagamaan santri.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <div class="card keunggulan-card h-100 text-center p-3">
+              <img src="C4.png" class="keunggulan-icon mt-4" alt="">
+              <h4 class="text-keunggulan">Tahfidz Al-Qur'an</h4>
+              <p class="small mb-4">Menghadirkan program tahfidz dengan pendampingan pembimbing yang kompeten untuk membantu santri menghafal dan memahami Al-Qur'an dengan baik.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <div class="card keunggulan-card h-100 text-center p-3">
+              <img src="C5.png" class="keunggulan-icon mt-4" alt="">
+              <h4 class="text-keunggulan">Kehidupan Terarah</h4>
+              <p class="small mb-4">Membangun pola kehidupan pesantren yang terarah melalui penerapan nilai disiplin, kemandirian, kebersamaan, dan tanggung jawab.</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <div class="card keunggulan-card h-100 text-center p-3">
+              <img src="C6.png" class="keunggulan-icon mt-4" alt="">
+              <h4 class="text-keunggulan">Pengembangan Diri</h4>
+              <p class="small mb-4">Memberikan ruang bagi santri untuk mengembangkan bakat, minat, dan keterampilan melalui berbagai kegiatan ekstrakurikuler dan program pengembangan diri.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FASILITAS ========== -->
+    <section class="color-section">
+      <div class="section-container">
+        <div class="d-flex justify-content-between align-items-start align-items-sm-center mb-4 mb-md-5 flex-wrap gap-3">
+          <div>
+            <p class="accent-badge mb-2">OUR FACILITIES</p>
+            <h2 class="section-title mb-0">Fasilitas Yang Kami Tawarkan</h2>
+          </div>
+          <a class="btn btn-primary" href="#">Lihat Selengkapnya</a>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="facility-card h-100">
+              <div class="facility-image-wrapper">
+                <img src="f-1.png" alt="Asrama Santri Putri">
+              </div>
+              <div class="facility-body">
+                <h4>Asrama Santri Putri</h4>
+                <hr>
+                <p>Asrama santri putri dirancang dengan suasana yang nyaman, bersih, dan tertata rapi untuk menunjang aktivitas sehari-hari para santri. Lingkungan asrama yang aman dan disiplin membantu menciptakan suasana tinggal yang nyaman serta mendukung pembentukan karakter mandiri.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="facility-card h-100">
+              <div class="facility-image-wrapper">
+                <img src="f-2.png" alt="Gedung Madrasah">
+              </div>
+              <div class="facility-body">
+                <h4>Gedung Madrasah</h4>
+                <hr>
+                <p>Gedung madrasah menyediakan ruang belajar yang nyaman, bersih, dan kondusif bagi santri putra maupun santri putri. Dengan lingkungan yang tertata dan suasana belajar yang mendukung, proses pembelajaran dapat berlangsung secara optimal.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="facility-card h-100">
+              <div class="facility-image-wrapper">
+                <img src="f-3.png" alt="Mushola Santri Putra">
+              </div>
+              <div class="facility-body">
+                <h4>Mushola Santri Putra</h4>
+                <hr>
+                <p>Mushola santri putra hadir sebagai sarana ibadah yang nyaman, bersih, dan tenang untuk menunjang kegiatan keagamaan sehari-hari. Dilengkapi fasilitas pendukung yang memadai, mushola menjadi tempat yang kondusif untuk beribadah dengan khusyuk.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALERI ========== -->
+    <section>
+      <div class="section-container gallery-section">
+        <div class="d-flex justify-content-between flex-wrap align-items-center mb-4 gap-3">
+          <div>
+            <p class="accent-badge mb-2">OUR GALLERY</p>
+            <h2 class="section-title mb-0">Dokumentasi Kegiatan Santri</h2>
+          </div>
+          <a class="btn btn-primary" href="galeri.html">Lihat Selengkapnya</a>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-lg-6">
+            <div class="gallery-main-img rounded-2 overflow-hidden">
+              <img src="gallery-1.png" alt="Kegiatan besar" style="height:100%;min-height:220px;width:100%;object-fit:cover;">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="row g-3">
+              <div class="col-6">
+                <div class="gallery-card rounded-2 overflow-hidden">
+                  <img src="gallery-2.png" alt="foto">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="gallery-card rounded-2 overflow-hidden">
+                  <img src="gallery-3.png" alt="foto">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="gallery-card rounded-2 overflow-hidden">
+                  <img src="gallery-4.png" alt="foto">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="gallery-card rounded-2 overflow-hidden">
+                  <img src="gallery-5.png" alt="foto">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIAL ========== -->
+    <section class="color-section">
+      <div class="section-container">
+        <div class="mb-4">
+          <p class="accent-badge mb-2">Feedback</p>
+          <h2 class="section-title">Cerita Mereka Bersama Kami</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div class="testimonial-card">
+              <div class="testimonial-rating">
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div class="score">5.0</div>
+              </div>
+              <h3 class="fw-bold mb-3 mt-4">Saya sangat bersyukur</h3>
+              <p class="mb-4 text-muted fs-6">
+                Sebagai wali santri, saya sangat bersyukur anak saya belajar di Pesantren Al Falah Putak karena lingkungannya bersih dan para ustaz-ustazahnya sangat peduli. Anak saya kini lebih disiplin, mandiri, dan semangat dalam menuntut ilmu.
+              </p>
+              <div class="testimonial-avatar">
+                <img src="ws-1.jpg" alt="Siti Nur Hamimah" class="rounded-circle" />
+                <div>
+                  <h5 class="mb-1 fw-bold">Siti Nur Hamimah</h5>
+                  <small class="text-muted">Ibu Rumah Tangga, Wali Santri</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="testimonial-card">
+              <div class="testimonial-rating">
+                <div class="text-warning">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <div class="score">4.0</div>
+              </div>
+              <h3 class="fw-bold mb-3 mt-4">Nyaman dan Berkesan</h3>
+              <p class="mb-4 text-muted fs-6">
+                Belajar di Pesantren Al Falah Putak sangat menyenangkan karena lingkungan dan teman-temannya mendukung. Saya merasa lebih dekat dengan agama, lebih disiplin, dan termotivasi untuk terus belajar.
+              </p>
+              <div class="testimonial-avatar">
+                <img src="ws-2.jpg" alt="Slamet Musyafa'" class="rounded-circle" />
+                <div>
+                  <h5 class="mb-1 fw-bold">Slamet Musyafa'</h5>
+                  <small class="text-muted">Wiraswasta, Wali Santri</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HELP / CTA ========== -->
+    <section>
+      <div class="section-container">
+        <div class="help-section d-flex flex-column flex-lg-row align-items-center gap-4">
+          <div class="flex-grow-1">
+            <p class="accent-badge mb-2">Need Help?</p>
+            <h2 class="section-title mb-3">Butuh Informasi Lebih Lanjut? Kami Siap Membantu!</h2>
+            <p class="fs-6 mb-4">
+              Hubungi kami untuk mendapatkan informasi lebih lanjut mengenai program pendidikan, fasilitas, maupun pendaftaran santri baru. Kami siap melayani Anda dengan ramah dan profesional.
+            </p>
+            <a class="btn btn-primary" href="mailto:info@alfalahputak.sch.id">Hubungi Segera</a>
+          </div>
+          <img class="help-illustration img-fluid" src="G1.png" alt="Ilustrasi Santri" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <div class="section-container" style="padding-top:1.5rem;padding-bottom:1rem;">
+        <div class="row g-4">
+          <div class="col-12 col-lg-5">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="logo-circle">
+                <img src="logo.png" class="logo-img" alt="Logo Pondok">
+              </div>
+              <h6 class="mb-0">Pondok Pesantren Al-Falah Putak</h6>
+            </div>
+            <p class="mb-3" style="font-size:0.9rem;">
+              RF4P+F89, Putak, Kec. Gelumbang, Kabupaten Muara Enim, Sumatera Selatan 31171
+            </p>
+            <div class="d-flex align-items-center gap-3">
+              <a href="#" aria-label="WhatsApp"><i class="bi bi-telephone-fill footer-icon"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram footer-icon"></i></a>
+              <a href="#" aria-label="Email"><i class="bi bi-envelope-fill footer-icon"></i></a>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <h6>Navigasi</h6>
+            <ul class="list-unstyled" style="font-size:0.9rem;">
+              <li class="mb-2"><a href="sejarah.html">Tentang Kami</a></li>
+              <li class="mb-2"><a href="kegiatan.html">Pembinaan Santri</a></li>
+              <li class="mb-2"><a href="tahfidz.html">Pendidikan</a></li>
+              <li class="mb-2"><a href="berita.html">Publikasi</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-4">
+            <h6>Pendaftaran Santri Baru</h6>
+            <p class="mb-3" style="font-size:0.9rem;">
+              Bergabunglah bersama kami dan jadilah bagian dari lingkungan pendidikan yang berkualitas di Pondok Pesantren Al-Falah Putak.
+            </p>
+            <a href="https://pendaftaransantribaru.netlify.app/" class="btn btn-register">Daftar Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-top border-light mt-4 pt-3 text-center">
+        <small>2026 Jakastra Official. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Mobile navbar close on link click -->
+    <script>
+      document.querySelectorAll('.navbar-nav .dropdown-item, .navbar-nav .nav-link:not(.dropdown-toggle)').forEach(link => {
+        link.addEventListener('click', () => {
+          const navbarCollapse = document.getElementById('navbarNav');
+          if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+            const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+            if (bsCollapse) bsCollapse.hide();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
